@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 817.041">
+  <defs>
+    <filter id="Path_248" x="319.1" y="676.461" width="647.584" height="140.58" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_227" data-name="Group 227" transform="translate(0.02 -0.001)">
+
+    <path id="Path_2231" data-name="Path 2231" d="M21437.865,2790.708l640.023-173.64v-595.8h-1280v595.8Z" transform="translate(-20797.908 -2021.266)" fill="#fff"/>
+  </g>
+</svg>

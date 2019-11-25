@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 416.258 121.153">
+  <defs>
+    <filter id="IRASOGRAPHY" x="245.259" y="67.153" width="135" height="54" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-color="#030303" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ایراسوگرافی" x="0" y="0" width="221" height="102" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-2"/>
+      <feFlood flood-color="#030303" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_71" data-name="Group 71" transform="translate(-432.241 -385.576)">
+    <g id="Group_5" data-name="Group 5" transform="translate(663.025 401.468)">
+      <g transform="matrix(1, 0, 0, 1, -230.78, -15.89)" filter="url(#IRASOGRAPHY)">
+        <text id="IRASOGRAPHY-2" data-name="IRASOGRAPHY" transform="translate(360.76 94.65)" fill="#fefbfb" font-size="13" font-family="ArialMT, Arial"><tspan x="-95.354" y="0">IRASOGRAPHY</tspan></text>
+      </g>
+      <g id="Group_4" data-name="Group 4" transform="translate(34.69 17.113)">
+        <path id="Path_10" data-name="Path 10" d="M102.409,116.829a15.862,15.862,0,0,1,15.863-15.861h0V94.9h0a21.926,21.926,0,0,0-21.93,21.926Z" transform="translate(-96.342 -94.891)" fill="#fefbfb"/>
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="61.195" height="6.013" transform="translate(21.49)" fill="#fefbfb"/>
+        <path id="Path_11" data-name="Path 11" d="M146.041,118.8a8.783,8.783,0,0,0-15.942-.007,9.5,9.5,0,0,0-.6,1.29,10.449,10.449,0,0,1,17.137,0A9.3,9.3,0,0,0,146.041,118.8Z" transform="translate(-98.827 -96.299)" fill="#fefbfb"/>
+        <g id="Group_3" data-name="Group 3" transform="translate(22.83 10.976)">
+          <path id="Path_12" data-name="Path 12" d="M240.354,118.342h.021a15.857,15.857,0,0,1-31.71-.358h-.011v-5.7H202.6v24.6h6.054v-3.784a21.921,21.921,0,0,0,37.794-14.765h.008v-6.054h-6.1Z" transform="translate(-127.136 -107.17)" fill="#fefbfb"/>
+          <rect id="Rectangle_4" data-name="Rectangle 4" width="6.12" height="24.769" transform="translate(121.835 4.952)" fill="#fefbfb"/>
+          <rect id="Rectangle_5" data-name="Rectangle 5" width="5.997" height="24.603" transform="translate(65.812 5.118)" fill="#fefbfb"/>
+          <path id="Path_13" data-name="Path 13" d="M228.223,147.813a4.43,4.43,0,0,0-4.094,2.745,4.423,4.423,0,1,0,0,3.361,4.424,4.424,0,1,0,4.094-6.105Z" transform="translate(-128.112 -109.832)" fill="#fefbfb"/>
+          <path id="Path_14" data-name="Path 14" d="M177.676,117.928h.006c0,.025,0,.049-.006.074v.045h0a15.853,15.853,0,0,1-15.838,15.384v.067H150.18a16.407,16.407,0,1,0-12.746,6.083q.845,0,1.666-.083l-.01.015h23.189v-.025a21.921,21.921,0,0,0,21.48-21.56h.009v-6.054h-6.092Zm-51.894,5.239a11.656,11.656,0,1,1,11.653,11.656A11.656,11.656,0,0,1,125.781,123.167Z" transform="translate(-121.022 -106.755)" fill="#fefbfb"/>
+        </g>
+        <path id="Path_15" data-name="Path 15" d="M188.313,111.931a3.022,3.022,0,1,1-3.022-3.022A3.022,3.022,0,0,1,188.313,111.931Z" transform="translate(-102.782 -95.94)" fill="#fefbfb"/>
+        <path id="Path_16" data-name="Path 16" d="M198.164,111.931a3.022,3.022,0,1,1-3.022-3.022A3.022,3.022,0,0,1,198.164,111.931Z" transform="translate(-103.521 -95.94)" fill="#fefbfb"/>
+        <path id="Path_17" data-name="Path 17" d="M208.637,111.931a3.021,3.021,0,1,1-3.021-3.022A3.021,3.021,0,0,1,208.637,111.931Z" transform="translate(-104.306 -95.94)" fill="#fefbfb"/>
+        <path id="Path_18" data-name="Path 18" d="M249.471,111.931a3.022,3.022,0,1,1-3.022-3.022A3.022,3.022,0,0,1,249.471,111.931Z" transform="translate(-107.366 -95.94)" fill="#fefbfb"/>
+        <path id="Path_19" data-name="Path 19" d="M258.836,111.931a3.022,3.022,0,1,1-3.022-3.022A3.022,3.022,0,0,1,258.836,111.931Z" transform="translate(-108.068 -95.94)" fill="#fefbfb"/>
+        <path id="Path_20" data-name="Path 20" d="M188.313,97.931a3.022,3.022,0,1,1-3.022-3.022A3.022,3.022,0,0,1,188.313,97.931Z" transform="translate(-102.782 -94.891)" fill="#fefbfb"/>
+        <path id="Path_21" data-name="Path 21" d="M102.385,117.411a3.022,3.022,0,1,1-3.022-3.021A3.023,3.023,0,0,1,102.385,117.411Z" transform="translate(-96.342 -96.351)" fill="#fefbfb"/>
+        <path id="Path_22" data-name="Path 22" d="M198.164,138.64a3.022,3.022,0,1,1-3.022-3.022A3.022,3.022,0,0,1,198.164,138.64Z" transform="translate(-103.521 -97.942)" fill="#fefbfb"/>
+        <path id="Path_23" data-name="Path 23" d="M208.637,138.64a3.021,3.021,0,1,1-3.021-3.022A3.021,3.021,0,0,1,208.637,138.64Z" transform="translate(-104.306 -97.942)" fill="#fefbfb"/>
+        <path id="Path_24" data-name="Path 24" d="M258.836,138.64a3.022,3.022,0,1,1-3.022-3.022A3.022,3.022,0,0,1,258.836,138.64Z" transform="translate(-108.068 -97.942)" fill="#fefbfb"/>
+        <path id="Path_25" data-name="Path 25" d="M117.548,111.863a3.022,3.022,0,1,1-3.021-3.021A3.022,3.022,0,0,1,117.548,111.863Z" transform="translate(-97.478 -95.935)" fill="#fefbfb"/>
+      </g>
+      <line id="Line_6" data-name="Line 6" x2="0.925" y2="74.929" transform="translate(0 0)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 432.24, 385.58)" filter="url(#ایراسوگرافی)">
+      <text id="ایراسوگرافی-2" data-name="ایراسوگرافی" transform="translate(201.5 57.5)" fill="#fefbfb" font-size="40" font-family="IRANSans-Bold, IRANSans" font-weight="700"><tspan x="-181.026" y="0">ایراسوگرافی</tspan></text>
+    </g>
+    <text id="سایتی_برای_تمام_فصول" data-name="سایتی برای تمام فصول" transform="translate(625.96 475.695)" fill="#fefbfb" font-size="11" font-family="IRANSans"><tspan x="-100.019" y="0">سایتی برای تمام فصول</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,350 @@
+.profile .profile-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile .profile-header .point {
+    background: url(../images/profile-point.svg);
+    width: 130px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.profile .profile-header .point .help-point {
+    position: absolute;
+    top: 10%;
+    right: -12px;
+}
+
+.profile .profile-header .point .help-point a svg {
+    width: 15px;
+    height: 17px;
+    fill: #021B89;
+}
+
+.profile .profile-header .point .right {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: 1px solid #dbdbdb;
+    border-radius: 50%;
+    position: absolute;
+    top: 14px;
+    right: 17px;
+    overflow: hidden;
+}
+
+.profile .profile-header .point .right span {
+    width: 100%;
+    height: 18px;
+    background: linear-gradient(#59095e 0%, #5c1465 5.15%, #97d8e7 100%);
+    position: absolute;
+    bottom: 0px;
+}
+
+.profile .profile-header .point .left {
+    position: absolute;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    top: 15px;
+}
+
+.profile .profile-header .point .left span {
+    font-weight: 300;
+    font-size: 10px;
+    color: #403d58;
+}
+
+.profile .profile-header .point .left samp {
+    font-family: "Arial Rounded MT";
+    font-weight: bold;
+    font-size: 12px;
+    color: #021b89;
+}
+
+.profile .profile-body {
+    margin-bottom: 50px;
+}
+
+.profile .profile-body .box-right {
+    background: #fff;
+}
+
+.profile .profile-body .box-right .box {
+    border-bottom: 0.5px solid #CACACA;
+    padding-bottom: 25px;
+}
+
+.profile .profile-body .box-right .box:last-child {
+    border-bottom: none;
+}
+
+.profile .profile-body .box-right .box .box-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile .profile-body .box-right .box .box-header img.star {
+    width: 37px;
+    height: 43px;
+}
+
+.profile .profile-body .box-right .box .box-header .dropdown-toggle .setting {
+    width: 26.786px;
+    height: 26.762px;
+}
+
+.profile .profile-body .box-right .box .box-header .dropdown-toggle::after {
+    display: none;
+}
+
+.profile .profile-body .box-right .box .box-header .dropdown-menu.show {
+    top: 0px;
+    right: 27px;
+    will-change: transform;
+    width: 211px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    background: linear-gradient(#021b89 0%, #59095e 100%);
+    filter: drop-shadow(0px 5px 7px rgba(0, 0, 0, 0.2));
+    padding: 15px;
+}
+
+.profile .profile-body .box-right .box .box-header .dropdown-menu a {
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.3s linear 0s;
+    padding-bottom: 10px;
+}
+
+.profile .profile-body .box-right .box .box-header .dropdown-menu a:hover {
+    opacity: .5;
+}
+
+.profile .profile-body .box-right .box .box-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile .profile-body .box-right .box .box-body .avatar {
+    border-radius: 50%;
+    width: 151px;
+    height: 151px;
+    background: transparent;
+    overflow: hidden;
+    margin-bottom: 11px;
+}
+
+.profile .profile-body .box-right .box .box-body .avatar img {
+    width: 151px;
+    height: 151px;
+}
+
+.profile .profile-body .box-right .box .box-body .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile .profile-body .box-right .box .box-body .user span:first-child {
+    font-weight: bold;
+    font-size: 17px;
+    color: #403d58;
+}
+
+.profile .profile-body .box-right .box .box-body .user span:last-child {
+    font-size: 12px;
+    color: #403d58;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+
+.profile .profile-body .box-right .box .box-body .state,
+.profile .profile-body .box-right .box .box-body .profession {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+.profile .profile-body .box-right .box .box-body .state span,
+.profile .profile-body .box-right .box .box-body .profession span {
+    font-weight: normal;
+    font-size: 12px;
+    color: #403d58;
+    padding: 0px 5px;
+}
+
+.profile .profile-body .box-right .box .box-header h3.about,
+.profile .profile-body .box-right .box .box-header h3.favorites {
+    font-weight: bold;
+    font-size: 15px;
+    color: #403d58;
+}
+
+.profile .profile-body .box-right .box .box-body span.about {
+    width: 200px;
+    font-family: IRANSans;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 27px;
+    text-align: right;
+    color: #403d58;
+    opacity: 0.93;
+}
+
+.profile .profile-body .box-right .box .box-body a.favorites {
+    font-weight: normal;
+    font-size: 12px;
+    color: #403d58;
+    border-radius: 11px;
+    background: #e2dada;
+    padding: 2px 17px;
+    margin: 5px;
+}
+
+.profile .profile-body .box-right .box .box-body a.link {
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 15px;
+    color: #465775;
+}
+
+.profile .profile-body .box-left {
+    width: 100%;
+    background: #fff;
+}
+
+.profile .profile-body .box-left .nav-tabs,
+.profile .profile-body .box-left .nav-tabs .nav-link,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.profile .profile-body .box-left .nav-tabs .nav-link {
+    font-weight: normal;
+    font-size: 14px;
+    color: #000;
+}
+
+.profile .profile-body .box-left .nav-tabs .nav-link.active {
+    border: none;
+    border-top: 2px solid #465775;
+    border-radius: 0px;
+}
+
+.profile .profile-body .box-left .tab-content .tab-pane {
+    margin: 10px 20px;
+}
+
+.profile .profile-body .box-left .tab-content .tab-pane .tab-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.profile .profile-body .box-left .tab-content .box-md-4 {
+    height: 281.71px;
+    background: rgba(181, 181, 181, 0.51);
+    flex: 0 0 42%;
+    max-width: 42%;
+    position: relative;
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.profile .profile-body .box-left .tab-content .box-md-8 {
+    height: 281.71px;
+    background: #b5b5b5;
+    opacity: 0.29;
+    flex: 0 0 55%;
+    max-width: 55%;
+    position: relative;
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.profile .profile-body .box-left .tab-content .tab-honor .top-box,
+.profile .profile-body .box-left .tab-content .tab-honor .down-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.profile .profile-body .box-left .tab-content .tab-honor .top-box .top-header,
+.profile .profile-body .box-left .tab-content .tab-honor .down-box .down-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile .profile-body .box-left .tab-content .tab-honor .top-box .top-header .img,
+.profile .profile-body .box-left .tab-content .tab-honor .down-box .down-header .img {
+    width: 63px;
+    height: 63px;
+    background: transparent;
+    border-radius: 50%;
+    margin: 0px 15px;
+}
+
+.profile .profile-body .box-left .tab-content .tab-honor .top-box .top-header .des h2,
+.profile .profile-body .box-left .tab-content .tab-honor .down-box .down-header .des h2 {
+    font-weight: bold;
+    font-size: 10px;
+    color: #4d4d4d;
+}
+.profile .profile-body .box-left .tab-content .tab-honor .top-box .top-header .dec span,
+.profile .profile-body .box-left .tab-content .tab-honor .down-box .down-header .dec span{
+    font-weight: normal;
+    font-size: 12px;
+    color: #403D58;
+}
+.profile .profile-body .box-left .tab-content .tab-honor .top-box .top-header .dec samp,
+.profile .profile-body .box-left .tab-content .tab-honor .down-box .down-header .dec samp{
+    font-weight: normal;
+    font-size: 12px;
+    color: #403d58;
+    padding-right: 10px;
+}
+.profile .profile-body .box-left .tab-content .tab-honor .top-box .top-body,
+.profile .profile-body .box-left .tab-content .tab-honor .down-box .down-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px;
+}
+.profile .profile-body .box-left .tab-content .box-md-12 {
+    flex: 0 0 85%;
+    max-width: 85%;
+    position: relative;
+    width: 100%;
+    height: 342.71px;
+    background: #b5b5b5;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.profile .profile-body .box-left .tab-content .box-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    height: 342px;
+    background: #b5b5b5;
+    margin-right: 5px;
+    margin-left: 5px;
+}

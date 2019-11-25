@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>B2B 1</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/commen.css">
+    <link rel="stylesheet" href="./css/map.css">
+    <link rel="stylesheet" href="./css/b2b.css">
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/iranmap.js"></script>
+</head>
+
+<body>
+    <header class="nav-dashbord">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-between">
+                <ul class="nav-right">
+                    <li class="nav-up">
+                        <a href="#">
+                            <img src="./images/logo-upload.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="dropdown-notification">
+                        <a href="#">
+                            <img src="./images/icon-bell.svg" alt="">
+                            <span class="badge badge-bell">5</span>
+                        </a>
+                    </li>
+                    <li class="user-avatar">
+                        <a href="#">
+                            <img src="./images/user-pic.png" alt="">
+                            <span>عارفه قباحی</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav-center">
+                    <li class="nav-search">
+                        <form class="d-flex">
+                            <button type="submit" class="btn-serach">
+                                <i class="fas fa-search"></i>
+                            </button>
+                            <input type="text" name="search">
+                        </form>
+                    </li>
+                </ul>
+                <ul class="nav-left">
+                    <li class="nav-menu">
+                        <a href="#">
+                            <i class="fas fa-bars "></i>
+                        </a>
+                    </li>
+                    <li class="nav-logo">
+                        <a href="#">
+                            <img src="./images/nav-logo.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="organiorg-partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h2>همکاری سازمانی </h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <form class="step-one" action="">
+                        <span class="title">لطفا اطلاعات مربوط به سازمان یا شرکت خود را ثبت کنید</span>
+                        <div class="forms">
+                            <div class="step-input">
+                                <label>عنوان شرکت یا سازمان *</label>
+                                <input type="text" class="form-control input-form">
+                            </div>
+                            <div class="step-input">
+                                <label>استان *</label>
+                                <input type="text" class="form-control input-form">
+                            </div>
+                            <div class="step-input">
+                                <label>شهرستان *</label>
+                                <input type="text" class="form-control input-form">
+                            </div>
+                            <div class="step-input">
+                                <label>تماس</label>
+                                <input type="text" class="form-control input-form">
+                            </div>
+                            <div class="step-input">
+                                <label>ایمیل *</label>
+                                <input type="text" class="form-control input-form">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end p-4">
+                            <a href="#">تایید و گام بعدی</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-12">
+                    <form class="step-two" action="">
+                        <span class="title">لطفا اطلاعات مربوط به پروژه را ثبت کنید</span>
+                        <div class="forms">
+                            <div class="step-select selects">
+                                <label>شرح پروژه</label>
+                                <select class="form-control" id="basicSelect">
+                                    <option>یک</option>
+                                    <option>دو</option>
+                                </select>
+                            </div>
+                            <div class="step-input ">
+                                <label>تاریخ شروع</label>
+                                <div class="d-block calendar">
+                                    <input type="text" class="form-control input-form">
+                                    <i class="far fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                            <div class="step-input">
+                                <label>تاریخ پایان</label>
+                                <div class="d-block calendar">
+                                    <input type="text" class="form-control input-form">
+                                    <i class="far fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                            <div class="step-input selects">
+                                <label>گرید عکاس</label>
+                                <select class="form-control" id="basicSelect">
+                                    <option>یک</option>
+                                    <option>دو</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end p-4">
+                            <a href="#">تایید و گام بعدی</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="step-three">
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <a class="nav-item nav-link active" id="nav-offer-tab" data-toggle="tab"
+                                            href="#nav-offer" role="tab" aria-controls="nav-offer" aria-selected="true">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="36"
+                                                viewBox="0 0 27 36">
+                                                <path id="Path_270" data-name="Path 270"
+                                                    d="M562.443,260.621h12v20.25a.719.719,0,0,1-.75.75h-25.5a.719.719,0,0,1-.75-.75v-34.5a.719.719,0,0,1,.75-.75h14.25Zm12-3h-9v-9Z"
+                                                    transform="translate(-547.443 -245.621)" />
+                                            </svg>
+                                            پیشنهاد ما
+                                        </a>
+                                        <a class="nav-item nav-link" id="nav-select-tab" data-toggle="tab"
+                                            href="#nav-select" role="tab" aria-controls="nav-select"
+                                            aria-selected="false">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="35.76" height="35.76"
+                                                viewBox="0 0 35.76 35.76">
+                                                <path id="Path_271" data-name="Path 271"
+                                                    d="M625.473,248.141a17.964,17.964,0,0,1,17.941,0,17.842,17.842,0,0,1,6.51,6.51,17.969,17.969,0,0,1,0,17.94,17.827,17.827,0,0,1-6.51,6.51,17.965,17.965,0,0,1-17.941,0,17.8,17.8,0,0,1-6.51-6.51,17.963,17.963,0,0,1,0-17.94A17.812,17.812,0,0,1,625.473,248.141Zm17.746,6.7a12.387,12.387,0,1,0,3.644,8.775A11.964,11.964,0,0,0,643.219,254.846Zm-8.776,8.775h6v3h-9v-12h3Z"
+                                                    transform="translate(-616.563 -245.741)" />
+                                            </svg>
+                                            انتخاب از لیست
+                                        </a>
+                                    </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-offer" role="tabpanel"
+                                        aria-labelledby="nav-offer-tab">
+                                        <div class="row p-5">
+                                            <div class="col-md-12">
+                                                <div class="headar-box">
+                                                    <div class="nav-item-text">
+                                                        <span>فیلتر بر اساس گرید عکاس</span>
+                                                    </div>
+                                                    <ul class="nav nav-tabs nav-box" id="myTab" role="tablist">
+                                                        <a href="#">
+                                                            <img src="./images/info.svg" alt="">
+                                                        </a>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link active" id="home-tab" data-toggle="tab"
+                                                                href="#home" role="tab" aria-controls="home"
+                                                                aria-selected="true">
+                                                                <img src="./images/starfour.svg" alt="">
+                                                                گرید سه
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="profile-tab" data-toggle="tab"
+                                                                href="#profile" role="tab" aria-controls="profile"
+                                                                aria-selected="false">
+                                                                <img src="./images/starone.svg" alt="">
+                                                                گرید دو
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="contact-tab" data-toggle="tab"
+                                                                href="#contact" role="tab" aria-controls="contact"
+                                                                aria-selected="false">
+                                                                <img src="./images/starthree.svg" alt="">
+                                                                گرید یک
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="body-box">
+                                                    <div class="tab-content" id="myTabContent">
+                                                        <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                                            aria-labelledby="home-tab">
+                                                            <div class="card-main">
+                                                                <div class="cards-item">
+                                                                    <div class="cards-items">
+                                                                        <div class="cards-header">
+                                                                            <img src="./images/starfour.svg">
+                                                                            <img class="avatar"
+                                                                                src="./images/user-pic.png">
+                                                                        </div>
+                                                                        <div class="cards-body">
+                                                                            <span class="user">username</span>
+                                                                            <a href="#">
+                                                                                مشاهده پروفایل
+                                                                            </a>
+                                                                            <span class="price">قیمت </span>
+                                                                            <span class="value">3.000.000 تومان</span>
+                                                                        </div>
+                                                                        <div class="cards-footer">
+                                                                            <label for="inlineRadio1">
+                                                                                انتخاب
+                                                                            </label>
+                                                                            <input type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio1" value="option1">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-factor">
+                                                                        <a href="#">
+                                                                            دریافت پپیشفاکتور
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cards-item">
+                                                                    <div class="cards-items">
+                                                                        <div class="cards-header">
+                                                                            <img src="./images/starfour.svg">
+                                                                            <img class="avatar"
+                                                                                src="./images/user-pic.png">
+                                                                        </div>
+                                                                        <div class="cards-body">
+                                                                            <span class="user">username</span>
+                                                                            <a href="#">
+                                                                                مشاهده پروفایل
+                                                                            </a>
+                                                                            <span class="price">قیمت </span>
+                                                                            <span class="value">3.000.000 تومان</span>
+                                                                        </div>
+                                                                        <div class="cards-footer">
+                                                                            <label for="inlineRadio2">
+                                                                                انتخاب
+                                                                            </label>
+                                                                            <input type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio2" value="option2">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cards-item">
+                                                                    <div class="cards-items">
+                                                                        <div class="cards-header">
+                                                                            <img src="./images/starfour.svg">
+                                                                            <img class="avatar"
+                                                                                src="./images/user-pic.png">
+                                                                        </div>
+                                                                        <div class="cards-body">
+                                                                            <span class="user">username</span>
+                                                                            <a href="#">
+                                                                                مشاهده پروفایل
+                                                                            </a>
+                                                                            <span class="price">قیمت </span>
+                                                                            <span class="value">3.000.000 تومان</span>
+                                                                        </div>
+                                                                        <div class="cards-footer">
+                                                                            <label for="inlineRadio3">
+                                                                                انتخاب
+                                                                            </label>
+                                                                            <input type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio3" value="option3">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cards-item">
+                                                                    <div class="cards-items">
+                                                                        <div class="cards-header">
+                                                                            <img src="./images/starfour.svg">
+                                                                            <img class="avatar"
+                                                                                src="./images/user-pic.png">
+                                                                        </div>
+                                                                        <div class="cards-body">
+                                                                            <span class="user">username</span>
+                                                                            <a href="#">
+                                                                                مشاهده پروفایل
+                                                                            </a>
+                                                                            <span class="price">قیمت </span>
+                                                                            <span class="value">3.000.000 تومان</span>
+                                                                        </div>
+                                                                        <div class="cards-footer">
+                                                                            <label for="inlineRadio4">
+                                                                                انتخاب
+                                                                            </label>
+                                                                            <input type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio4" value="option4">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cards-item">
+                                                                    <div class="cards-items">
+                                                                        <div class="cards-header">
+                                                                            <img src="./images/starfour.svg">
+                                                                            <img class="avatar"
+                                                                                src="./images/user-pic.png">
+                                                                        </div>
+                                                                        <div class="cards-body">
+                                                                            <span class="user">username</span>
+                                                                            <a href="#">
+                                                                                مشاهده پروفایل
+                                                                            </a>
+                                                                            <span class="price">قیمت </span>
+                                                                            <span class="value">3.000.000 تومان</span>
+                                                                        </div>
+                                                                        <div class="cards-footer">
+                                                                            <label for="inlineRadio5">
+                                                                                انتخاب
+                                                                            </label>
+                                                                            <input type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio5" value="option5">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="tab-pane fade" id="profile" role="tabpanel"
+                                                            aria-labelledby="profile-tab">
+                                                            ...</div>
+                                                        <div class="tab-pane fade" id="contact" role="tabpanel"
+                                                            aria-labelledby="contact-tab">
+                                                            ...</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-select" role="tabpanel"
+                                        aria-labelledby="nav-select-tab">
+                                        <div class="row p-5">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-6 d-flex align-items-end ">
+                                                        <div class="search">
+                                                            <form action="">
+                                                                <input type="text" name="search"
+                                                                    placeholder="جستجوی نام کاربر">
+                                                                <button type="submit" class="btn-serach">
+                                                                    <i class="fas fa-search"></i>
+                                                                </button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 headar-box ">
+                                                        <div class="nav-item-text">
+                                                            <span>فیلتر بر اساس گرید عکاس</span>
+                                                        </div>
+                                                        <ul class="nav nav-tabs nav-box" id="myTab" role="tablist">
+                                                            <a href="#">
+                                                                <img src="./images/info.svg" alt="">
+                                                            </a>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" id="home-tab"
+                                                                    data-toggle="tab" href="#home" role="tab"
+                                                                    aria-controls="home" aria-selected="true">
+                                                                    <img src="./images/starfour.svg" alt="">
+                                                                    گرید سه
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" id="profile-tab" data-toggle="tab"
+                                                                    href="#profile" role="tab" aria-controls="profile"
+                                                                    aria-selected="false">
+                                                                    <img src="./images/starone.svg" alt="">
+                                                                    گرید دو
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" id="contact-tab" data-toggle="tab"
+                                                                    href="#contact" role="tab" aria-controls="contact"
+                                                                    aria-selected="false">
+                                                                    <img src="./images/starthree.svg" alt="">
+                                                                    گرید یک
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="body-box">
+                                                    <div class="tab-content" id="myTabContent">
+                                                        <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                                            aria-labelledby="home-tab">
+                                                            <div class="card-main">
+                                                                <div class="cards-item">
+                                                                    <div class="cards-items">
+                                                                        <div class="cards-header">
+                                                                            <img src="./images/starfour.svg">
+                                                                            <img class="avatar"
+                                                                                src="./images/user-pic.png">
+                                                                        </div>
+                                                                        <div class="cards-body">
+                                                                            <span class="user">username</span>
+                                                                            <a href="#">
+                                                                                مشاهده پروفایل
+                                                                            </a>
+                                                                            <span class="price">قیمت </span>
+                                                                            <span class="value">3.000.000 تومان</span>
+                                                                        </div>
+                                                                        <div class="cards-footer">
+                                                                            <label for="inlineRadio1">
+                                                                                انتخاب
+                                                                            </label>
+                                                                            <input type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio1" value="option1">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-factor">
+                                                                        <a href="#">
+                                                                            دریافت پپیشفاکتور
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cards-item">
+                                                                    <div class="cards-items">
+                                                                        <div class="cards-header">
+                                                                            <img src="./images/starfour.svg">
+                                                                            <img class="avatar"
+                                                                                src="./images/user-pic.png">
+                                                                        </div>
+                                                                        <div class="cards-body">
+                                                                            <span class="user">username</span>
+                                                                            <a href="#">
+                                                                                مشاهده پروفایل
+                                                                            </a>
+                                                                            <span class="price">قیمت </span>
+                                                                            <span class="value">3.000.000 تومان</span>
+                                                                        </div>
+                                                                        <div class="cards-footer">
+                                                                            <label for="inlineRadio2">
+                                                                                انتخاب
+                                                                            </label>
+                                                                            <input type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio2" value="option2">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cards-item">
+                                                                    <div class="cards-items">
+                                                                        <div class="cards-header">
+                                                                            <img src="./images/starfour.svg">
+                                                                            <img class="avatar"
+                                                                                src="./images/user-pic.png">
+                                                                        </div>
+                                                                        <div class="cards-body">
+                                                                            <span class="user">username</span>
+                                                                            <a href="#">
+                                                                                مشاهده پروفایل
+                                                                            </a>
+                                                                            <span class="price">قیمت </span>
+                                                                            <span class="value">3.000.000 تومان</span>
+                                                                        </div>
+                                                                        <div class="cards-footer">
+                                                                            <label for="inlineRadio3">
+                                                                                انتخاب
+                                                                            </label>
+                                                                            <input type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio3" value="option3">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cards-item">
+                                                                    <div class="cards-items">
+                                                                        <div class="cards-header">
+                                                                            <img src="./images/starfour.svg">
+                                                                            <img class="avatar"
+                                                                                src="./images/user-pic.png">
+                                                                        </div>
+                                                                        <div class="cards-body">
+                                                                            <span class="user">username</span>
+                                                                            <a href="#">
+                                                                                مشاهده پروفایل
+                                                                            </a>
+                                                                            <span class="price">قیمت </span>
+                                                                            <span class="value">3.000.000 تومان</span>
+                                                                        </div>
+                                                                        <div class="cards-footer">
+                                                                            <label for="inlineRadio4">
+                                                                                انتخاب
+                                                                            </label>
+                                                                            <input type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio4" value="option4">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cards-item">
+                                                                    <div class="cards-items">
+                                                                        <div class="cards-header">
+                                                                            <img src="./images/starfour.svg">
+                                                                            <img class="avatar"
+                                                                                src="./images/user-pic.png">
+                                                                        </div>
+                                                                        <div class="cards-body">
+                                                                            <span class="user">username</span>
+                                                                            <a href="#">
+                                                                                مشاهده پروفایل
+                                                                            </a>
+                                                                            <span class="price">قیمت </span>
+                                                                            <span class="value">3.000.000 تومان</span>
+                                                                        </div>
+                                                                        <div class="cards-footer">
+                                                                            <label for="inlineRadio5">
+                                                                                انتخاب
+                                                                            </label>
+                                                                            <input type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio5" value="option5">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="tab-pane fade" id="profile" role="tabpanel"
+                                                            aria-labelledby="profile-tab">
+                                                            ...</div>
+                                                        <div class="tab-pane fade" id="contact" role="tabpanel"
+                                                            aria-labelledby="contact-tab">
+                                                            ...</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="btn-all">
+                                                    <a href="#">مشاهده بیشتر</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="email-input">
+                        <span>برای آگاهی از اتفاقات جدید در ایراسو ایمیل خود را ثبت کنید</span>
+                        <form>
+                            <button type="submit" class="btn-serach">ثبت</button>
+                            <input type="text">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo">
+                        <div class="title">
+                            <h2>IRASOGRAPHY.COM</h2>
+                        </div>
+                        <div class="menus">
+                            <ul>
+                                <li>
+                                    <a href="#">تماس با ما</a>
+                                </li>
+                                <li>
+                                    <a href="#">درباره با ما</a>
+                                </li>
+                                <li>
+                                    <a href="#">قوانین و مقررات</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-links">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/telegram.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/instagram.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="square"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

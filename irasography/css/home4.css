@@ -1,0 +1,87 @@
+.main .location {
+    background: #fff;
+    margin: 50px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.main .location .header-loc {
+    width: 100%;
+    height: 109px;
+    background: linear-gradient(90deg, rgba(52, 250, 229, 1) 0%, rgba(110, 219, 222, 1) 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .location .header-loc h2 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #403d58;
+}
+
+.main .location .header-loc h3 {
+    font-weight: normal;
+    font-size: 12px;
+    color: #403d58;
+}
+.main .location .main-loc{
+    padding: 50px 80px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .location .main-loc .title{
+    width: 84%;
+    display: flex;
+}
+.main .location .main-loc span{
+    font-weight: 500;
+    font-size: 15px;
+    color: #403d58;
+    margin-bottom: 30px;
+    display: block;
+}
+.main .location .main-loc form label{
+    font-weight: 500;
+    font-size: 9px;
+    color: #403d58;
+}
+.main .location .main-loc form select{
+    width: 402px;
+    height: 34px;
+    border-radius: 7px;
+    background: #fff;
+    border: 1px solid #c9c9c9;
+}
+.main .location .main-loc form label.form-check-label{
+    font-weight: 500;
+    font-size: 10px;
+    color: #403d58;
+}
+.main .location .main-loc form a.btn-loc{
+    background: linear-gradient(90deg, rgba(156, 108, 159, 1) 0%, rgba(89, 9, 94, 1) 49%, rgba(46, 239, 221, 1) 100%);
+    cursor: pointer;
+    width: 153px;
+    height: 42px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 19px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    line-height: 39px;
+    margin-top: 29px;
+}
+@media only screen and (max-width:992px) {
+    .main .location .main-loc{
+        padding: 50px 20px 25px;
+    }
+    .main .location .main-loc form select {
+        width: 100%;
+    }
+}

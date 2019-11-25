@@ -1,0 +1,795 @@
+body {
+    background-color: #F6F6F6;
+}
+
+.site__map .map__title h6 {
+    font-weight: normal;
+    font-size: 19.79px;
+    line-height: 23.75px;
+    text-align: right;
+    color: #403d58;
+
+}
+
+#IranMap {
+    display: flex;
+    position: relative;
+    direction: rtl;
+    text-align: right;
+    padding: 0;
+    font-family: Tahoma;
+    font-size: 11px;
+    margin: 50px auto;
+}
+
+#IranMap .show-title {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    margin: 0 !important;
+    padding: 0 5px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    opacity: 0.8;
+}
+
+#IranMap .map {
+    display: flex;
+    float: left;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#IranMap .map svg {
+    height: 500px !important;
+    width: 500px !important;
+}
+
+#IranMap .map .border path,
+#IranMap .map .island path {
+    fill: #fff;
+}
+
+#IranMap .map .province path {
+    fill: #D4D2D2;
+}
+
+#IranMap .map .sea path,
+#IranMap .map .lake path {
+    fill: #6caed8;
+    transition: all 0.3s ease-in 0s;
+}
+
+#IranMap .map .province path:hover,
+#IranMap .map .island path:hover,
+#IranMap .map .province path.hover,
+#IranMap .map .island path.hover {
+    fill: #59095E !important;
+    transition: all 0.3s ease-in 0s;
+
+    cursor: pointer;
+}
+
+#IranMap .list {
+    display: block;
+    float: right;
+    overflow: auto;
+    width: 157.51px;
+    height: 345.7px;
+    background: #fff;
+    box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+
+#IranMap .list ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#IranMap .list>ul {
+    margin-left: 10px;
+}
+
+#IranMap .list li {
+    list-style: none;
+}
+
+#IranMap .list span {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #465775;
+    display: block;
+    padding-top: 100px;
+}
+
+#IranMap .list .box-top {
+    width: 100%;
+    height: 116px;
+    background: linear-gradient(356deg, rgba(89, 9, 94, 0.07466736694677867) 0%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#IranMap .list .box-top h2 {
+    font-size: 17px;
+    color: #403d58;
+}
+
+#IranMap .list .box-top span {
+    font-size: 9px;
+    color: #403d58;
+    padding: 0px;
+}
+
+#IranMap .list .box-top a {
+    width: 100.85px;
+    height: 28.41px;
+    background: linear-gradient(90deg, rgba(156, 108, 159, 1) 0%, rgba(89, 9, 94, 1) 49%, rgba(46, 239, 221, 1) 100%);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 9px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    margin-top: 12px;
+}
+
+#IranMap .list ul li span {
+    background: #59095E;
+    color: #ecf0f1;
+    display: block;
+    margin: 0 2px;
+    padding: 0 8px;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+
+#IranMap .list li ul li a {
+    background: #fff;
+    color: #000;
+    padding: 0 8px;
+    line-height: 26px;
+    margin: 2px 2px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#IranMap .list li ul li a span {
+    background: none;
+    color: #000;
+    display: inline;
+    padding: 0 8px;
+    margin: 2px 2px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+#IranMap .list li ul li a:hover,
+#IranMap .list li ul li a:hover span,
+#IranMap .list li ul li a.hover {
+    background: #59095E;
+    color: #fff;
+}
+
+#IranMap .list ul:before,
+#IranMap .list ul:after {
+    display: table;
+    content: " ";
+}
+
+#IranMap .list ul,
+#IranMap .list ul:after {
+    clear: both;
+}
+
+#IranMap .city {
+    clear: both;
+    padding: 10px 0;
+}
+
+.map-main .breadcrumbs ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.map-main .breadcrumbs ul li a {
+    font-weight: 500;
+    font-size: 10px;
+    text-align: left;
+    color: #b5b5b5;
+}
+
+.map-main .breadcrumbs ul li {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.map-main .breadcrumbs ul li::after {
+    content: "\f104";
+    margin: 0px 5px;
+    font-size: 12px;
+    font-family: 'Font Awesome 5 Pro';
+}
+
+.map-main .breadcrumbs ul li:last-child::after {
+    content: ""
+}
+
+.map-main .title h2 {
+    font-weight: normal;
+    font-size: 19px;
+    color: #403d58;
+}
+
+.map-photographers .boxing {
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+.map-photographers .boxing .title {
+    background: linear-gradient(90deg, rgba(200, 103, 141, 1) 0%, rgba(2, 27, 137, 1) 100%);
+    display: flex;
+    align-items: center;
+    padding: 25px 22px;
+}
+
+.map-photographers .boxing .title h3 {
+    font-weight: bold;
+    font-size: 19px;
+    color: #fff;
+}
+
+.map-photographers .boxing .title span {
+    font-size: 15px;
+    color: #fff;
+    padding-right: 22px;
+}
+
+.map-photographers .boxing .box .nav-item-text {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 11%;
+}
+
+.map-photographers .boxing .box .nav-item-text span {
+    font-weight: 500;
+    font-size: 10px;
+    color: #403d58;
+
+}
+
+.map-photographers .boxing .box .nav-box {
+    justify-content: flex-end;
+    border-bottom: none;
+}
+
+.map-photographers .boxing .box .nav-box a img {
+    width: 15px;
+    height: 17px;
+    background: transparent;
+}
+
+.map-photographers .boxing .box .nav-box li.nav-item a {
+    width: 67px;
+    height: 59px;
+    background: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin: 5px;
+    border-radius: 0px;
+    font-size: 9px;
+    color: #465775;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-photographers .boxing .box .nav-box li.nav-item a img {
+    width: 19.78px;
+    height: 22.87px;
+    margin-bottom: 8px;
+}
+
+.map-photographers .boxing .box .nav-box li.nav-item .nav-link.active {
+    background: #403d58;
+    border: none;
+    font-size: 9px;
+    color: #fff;
+}
+
+.map-photographers .photo-main {
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+}
+
+.map-photographers .photo-main .photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 12.333333%;
+    max-width: 12.333333%;
+    margin: 15px 0px;
+}
+
+.map-photographers .photo-main .photo-item img.user {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.map-photographers .photo-main .photo-item h2 {
+    font-weight: 300;
+    font-size: 15px;
+    color: #403d58;
+}
+
+.map-photographers .photo-main .photo-item h3 {
+    font-weight: 500;
+    font-size: 10px;
+    color: #403d58;
+
+}
+
+.map-photographers .photo-main .photo-item img.star {
+    width: 24px;
+    height: 28px;
+    background: transparent;
+}
+
+.map-photographers .btn-boxing {
+    background: linear-gradient(90deg, rgba(156, 108, 159, 1) 0%, rgba(89, 9, 94, 1) 49%, rgba(46, 239, 221, 1) 100%);
+    cursor: pointer;
+    width: 153px;
+    height: 42px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 19px;
+    display: block;
+    text-align: center;
+    line-height: 39px;
+    margin: 15px auto;
+}
+
+.province {
+    margin-bottom: 20px;
+}
+
+.province .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.province .title h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+.province .title span {
+    font-weight: 500;
+    font-size: 9px;
+    color: #666;
+    padding-right: 10px;
+}
+
+.province .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.province .item .star {
+    display: flex;
+    padding-left: 35px;
+}
+
+.province .item .star a {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: #403d58;
+}
+
+.province .item .star a img {
+    width: 24.93px;
+    height: 28.82px;
+    background: transparent;
+    padding-bottom: 10px;
+}
+
+.province .item .map img {
+    width: 171.62px;
+    height: 157.91px;
+}
+
+.province .item a.btn-province {
+    display: flex;
+    background: linear-gradient(90deg, rgba(156, 108, 159, 1) 0%, rgba(89, 9, 94, 1) 49%, rgba(46, 239, 221, 1) 100%);
+    width: 100px;
+    height: 28px;
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 9px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.province .item a.btn-province i {
+    font-size: 9px;
+    color: #fff;
+    padding-right: 5px;
+}
+
+.main-province .main {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.main-province .main .main-header {
+    display: flex;
+    align-items: center;
+    padding: 25px 30px;
+}
+
+.main-province .main .main-header h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+
+}
+
+.main-province .main .main-header span {
+    font-weight: 500;
+    font-size: 9px;
+    color: #97d8e7;
+    padding-right: 10px;
+}
+
+.main-province .main .main-body {
+    flex-wrap: wrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+}
+
+.main-province .main .main-body .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 12.333333%;
+    max-width: 12.333333%;
+    margin: 15px 0px;
+}
+
+.main-province .main .main-body .item img.user {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.main-province .main .main-body .item h2 {
+    font-weight: 300;
+    font-size: 15px;
+    color: #403d58;
+}
+
+.main-province .main .main-body .item h3 {
+    font-weight: 500;
+    font-size: 10px;
+    color: #403d58;
+}
+
+.main-province .main .main-body .item img.star {
+    width: 24px;
+    height: 28px;
+    background: transparent;
+}
+
+.main-province .main .main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.main-province .main .main-footer a {
+    font-weight: 500;
+    font-size: 13px;
+    color: #403d58;
+    border-bottom: 1px solid #403d58;
+}
+
+.main-province .province-all {
+    background: linear-gradient(90deg, rgba(156, 108, 159, 1) 0%, rgba(89, 9, 94, 1) 49%, rgba(46, 239, 221, 1) 100%);
+    cursor: pointer;
+    width: 153px;
+    height: 42px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 19px;
+    display: block;
+    text-align: center;
+    line-height: 39px;
+    margin: 15px auto 100px;
+}
+
+.filter-user .filter-header {}
+
+.filter-user .filter-header .title {
+    display: flex;
+}
+
+.filter-user .filter-header .title h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+.filter-user .filter-header .title span {
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+    padding-right: 12px;
+}
+
+.filter-user .filter-header .nav-item-text {
+    display: flex;
+    justify-content: start;
+    padding-right: 10px;
+    padding-bottom: 12px;
+}
+
+.filter-user .filter-header .nav-item-text span {
+    font-weight: 500;
+    font-size: 10px;
+    color: #403d58;
+
+}
+
+.filter-user .filter-header .nav-box {
+    justify-content: flex-end;
+    border-bottom: none;
+}
+
+.filter-user .filter-header .nav-box a img {
+    width: 15px;
+    height: 17px;
+    background: transparent;
+}
+
+.filter-user .filter-header li.nav-item a {
+    width: 67px;
+    height: 59px;
+    background: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin: 5px;
+    border-radius: 0px;
+    font-size: 9px;
+    color: #465775;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-user .filter-header li.nav-item a img {
+    width: 19.78px;
+    height: 22.87px;
+    margin-bottom: 8px;
+}
+
+.filter-user .filter-header li.nav-item .nav-link.active {
+    background: #403d58;
+    border: none;
+    font-size: 9px;
+    color: #fff;
+}
+
+.filter-user .filter-main {
+    background: #fff;
+    margin-top: 15px;
+    padding: 25px 15px;
+}
+
+.filter-user .filter-main .photo-main {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.filter-user .filter-main .photo-main .photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 12.333333%;
+    max-width: 12.333333%;
+    margin: 15px 0px;
+}
+
+.filter-user .filter-main .photo-main .photo-item .img {
+    width: 80px;
+    height: 80px;
+    background: #b5b5b5;
+    border-radius: 50%;
+}
+
+.filter-user .filter-main .photo-main .photo-item .img img.user {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.filter-user .filter-main .photo-main .photo-item h2 {
+    font-weight: 300;
+    font-size: 16px;
+    color: #403d58;
+    padding: 5px 0px;
+}
+
+.filter-user .filter-main .photo-main .photo-item h3 {
+    font-weight: 500;
+    font-size: 12px;
+    color: #403d58;
+
+}
+
+.filter-user .filter-main .photo-item img.star {
+    width: 24px;
+    height: 28px;
+    background: transparent;
+}
+
+.filter-user .filter-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.filter-user .filter-btn a {
+    background: linear-gradient(90deg, rgba(156, 108, 159, 1) 0%, rgba(89, 9, 94, 1) 49%, rgba(46, 239, 221, 1) 100%);
+    cursor: pointer;
+    width: 153px;
+    height: 42px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media(max-width: 991px) {
+    #IranMap {
+        margin: 50px auto 0px;
+    }
+
+    #IranMap .list {
+        width: 230px;
+    }
+
+    #IranMap .map svg {
+        width: 100% !important;
+    }
+
+    #IranMap .list ul {
+        width: 220px;
+    }
+
+    .map {
+        width: calc(100% - 250px);
+    }
+
+    .map-photographers .boxing .box .nav-box {
+        flex-wrap: wrap;
+    }
+
+    .map-photographers .boxing .box {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .map-photographers .photo-main .photo-item,
+    .main-province .main .main-body .item,
+    .filter-user .filter-main .photo-main .photo-item {
+        max-width: 100%;
+        width: 24%;
+        align-items: center;
+        flex: 0 0 24%;
+    }
+
+}
+
+@media(max-width: 745px) {
+    #IranMap .map {
+        width: calc(100% - 250px);
+    }
+}
+
+@media(max-width: 515px) {
+
+    #IranMap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #IranMap .list {
+        width: 100%;
+    }
+
+    #IranMap .list ul {
+        width: 100%;
+    }
+
+    #IranMap .list,
+    #IranMap .map {
+        width: 100%;
+    }
+
+
+    #IranMap .list li ul li {
+        width: 100%;
+    }
+
+    #IranMap .list li ul li a {
+        font-size: 10px !important;
+    }
+
+    .map-photographers .photo-main .photo-item,
+    .main-province .main .main-body .item,
+    .filter-user .filter-main .photo-main .photo-item {
+        max-width: 100%;
+        width: 100%;
+        align-items: center;
+        flex: auto;
+    }
+    .province .item{
+        flex-direction: column;
+    }
+
+    .province .item .star {
+        width: 100%;
+        justify-content: space-between;
+        padding: 24px;
+    }
+    .province .item .star a{
+        align-content: center;
+    }
+    .province .item .star a img {
+        width: 40px;
+        height: auto;
+    }
+}

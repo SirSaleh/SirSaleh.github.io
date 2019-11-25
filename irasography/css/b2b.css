@@ -1,0 +1,736 @@
+.form-control:focus {
+    border: none;
+    box-shadow: none
+}
+
+.organiorg-partner {
+    margin: 50px 0px;
+}
+
+.organiorg-partner .title h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #403d58;
+    margin-bottom: 32px;
+}
+
+.organiorg-partner .step-one {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff
+}
+
+.organiorg-partner .step-one .forms {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.organiorg-partner .step-one span.title {
+    font-size: 14px;
+    color: #4d4d4d;
+    padding: 22px;
+}
+
+.organiorg-partner .step-one .forms .step-input {
+    width: 180px;
+}
+
+.organiorg-partner .step-one .forms .step-input label {
+    font-size: 11px;
+    color: #b5b5b5;
+    font-weight: 500;
+}
+
+.organiorg-partner .step-one .forms .step-input input {
+    border-radius: 7px;
+    border: 1px solid #c9c9c9;
+}
+
+.organiorg-partner .step-one a,
+.organiorg-partner .step-two a {
+    width: 169px;
+    height: 47px;
+    border-radius: 23px;
+    background: linear-gradient(90deg, rgba(114, 211, 218, 1) 51%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.16);
+    font-weight: 500;
+    font-size: 15px;
+    color: #403d58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.organiorg-partner .step-two {
+    background: linear-gradient(#340637 0%, #59095e 100%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.organiorg-partner .step-two span.title {
+    font-size: 14px;
+    color: #fff;
+    padding: 22px;
+}
+
+.organiorg-partner .step-two .forms {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.organiorg-partner .step-two .forms .step-select {
+    width: 310px;
+}
+
+.organiorg-partner .step-two .forms .step-input {
+    width: 218.5px;
+}
+
+.organiorg-partner .step-two .forms .step-select label,
+.organiorg-partner .step-two .forms .step-input label {
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.organiorg-partner .step-two .forms .step-input input {
+    border-radius: 7px;
+    border: 1px solid #c9c9c9;
+}
+
+.organiorg-partner .step-two .forms .selects select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.organiorg-partner .step-two .forms .selects::before {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Pro';
+    display: flex;
+    height: 0px;
+    float: left;
+    margin-left: 12px;
+    line-height: 45px;
+    font-size: 20px;
+    margin-top: 24px;
+    color: #50C5B7;
+}
+
+.organiorg-partner .step-two .forms .step-input .calendar {
+    position: relative;
+}
+
+.organiorg-partner .step-two .forms .step-input .calendar i {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 32px;
+    height: 100%;
+    border-radius: 3px 0px 0px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4D4D4D;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.organiorg-partner .step-two form .step-input-show {}
+
+.organiorg-partner .step-two .step-input-show label {
+    font-size: 11px;
+    font-weight: 500;
+    color:
+        #fff;
+}
+
+.organiorg-partner .step-two .step-input-show input {
+    width: 310px;
+    height: 99px;
+    border-radius: 8px;
+    background: #f6f6f6;
+
+}
+
+.organiorg-partner .step-three {
+    width: 100%;
+    background: #fff;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+    margin-top: 250px;
+}
+
+.organiorg-partner .step-three nav .nav-tabs {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -120px;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 1;
+}
+
+.organiorg-partner .step-three nav .nav-tabs .nav-link {
+    width: 128px;
+    height: 139px;
+    background: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.organiorg-partner .step-three nav .nav-tabs .active {
+    width: 128px;
+    height: 139px;
+    background: linear-gradient(#021b89 0%, #fb7a8e 100%);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.organiorg-partner .step-three nav .nav-tabs a {
+    font-weight: 500;
+    font-size: 13px;
+    color: #465775;
+}
+
+.organiorg-partner .step-three nav .nav-tabs a.active {
+    font-size: 13px;
+    color: #fff;
+}
+
+.organiorg-partner .step-three nav .nav-tabs a svg {
+    margin-bottom: 10px;
+}
+
+.organiorg-partner .step-three nav .nav-tabs svg path {
+    fill: #465775;
+}
+
+.organiorg-partner .step-three nav .nav-tabs .active svg path {
+    fill: #fff;
+}
+
+.organiorg-partner .step-three .tab-content .headar-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.organiorg-partner .step-three .tab-content .headar-box .nav-item-text {
+    display: flex;
+    justify-content: start;
+    padding-right: 10px;
+    padding-bottom: 12px;
+}
+
+.organiorg-partner .step-three .tab-content .headar-box .nav-item-text span {
+    font-weight: 500;
+    font-size: 10px;
+    color: #403d58;
+}
+
+.organiorg-partner .step-three .tab-content .headar-box .nav-box {
+    border: none;
+}
+
+.organiorg-partner .step-three .tab-content .headar-box .nav-box a img {
+    width: 15px;
+    height: 17px;
+    background: transparent;
+}
+
+.organiorg-partner .step-three .tab-content .headar-box .nav-box li.nav-item a {
+    width: 67px;
+    height: 59px;
+    background: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin: 5px;
+    border-radius: 0px;
+    font-size: 9px;
+    color: #465775;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.organiorg-partner .step-three .tab-content .headar-box .nav-box li.nav-item .nav-link.active {
+    background: #403d58;
+    border: none;
+    font-size: 9px;
+    color: #fff;
+}
+
+.organiorg-partner .step-three .tab-content .headar-box li.nav-item a img {
+    width: 19.78px;
+    height: 22.87px;
+    margin-bottom: 8px;
+}
+
+.organiorg-partner .step-three .tab-content .search {
+    width: 228.33px;
+    height: 40px;
+    float: left;
+    border-radius: 7px;
+    border: 0.5px solid #97d8e7;
+}
+
+
+
+.organiorg-partner .step-three .tab-content .search input {
+    border: none;
+    height: 30px;
+    padding: 0px 10px;
+    line-height: 29px;
+    width: 190px;
+    margin-top: 2px;
+    float: right;
+    background: 0 0 !important;
+    color: #666;
+}
+
+.organiorg-partner .step-three .tab-content .search input::placeholder {
+    font-size: 10px;
+    color: #9b9b9b;
+
+}
+
+.organiorg-partner .step-three .tab-content .search button {
+    border: none;
+    background: 0 0;
+    color: #97d8e7;
+    height: 33px;
+    line-height: 38px;
+    width: 35px;
+    padding: 0;
+    float: right;
+    cursor: pointer;
+}
+
+.organiorg-partner .step-three .tab-content .search button {
+    outline: none;
+}
+
+
+.organiorg-partner .step-three .tab-content .body-box .card-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item {
+    flex: 0 0 23%;
+    max-width: 23%;
+    background: linear-gradient(#50c5b7 0%, #021b89 100%);
+    border-radius: 9px;
+    margin: 80px 10px;
+    position: relative;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-items {
+    background: #fff;
+    border: 1px solid #6196fe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 9px;
+    z-index: 1;
+    position: relative;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-header img {
+    width: 24px;
+    height: 28px;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-header img.avatar {
+    width: 121px;
+    height: 121px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -55px;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-body span.user {
+    font-size: 15px;
+    color: #403d58;
+    padding-bottom: 15px;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-body a {
+    width: 155px;
+    height: 28px;
+    border-radius: 14px;
+    background: linear-gradient(#021b89 0%, #fb7a8e 100%);
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-body span.price {
+    color: #403D58;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-body span.value {
+    font-size: 16px;
+    color: #403d58;
+    padding-bottom: 25px;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-footer {
+    width: 100%;
+    border-top: 1px solid #6196FE;
+    padding: 10px 25px;
+    display: flex;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-footer label {
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #403d58;
+    position: relative;
+    width: 100%;
+}
+
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-footer input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    background: #ffffff;
+    border: 1px solid #707070;
+    color: #fff;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .card-factor {
+    background: linear-gradient(#50c5b7 0%, #021b89 100%);
+    padding: 15px;
+    margin-top: -11px;
+    z-index: -12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    position: absolute;
+    width: 100%;
+}
+
+.organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .card-factor a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.organiorg-partner .step-three .tab-content .btn-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.organiorg-partner .step-three .tab-content .btn-all a {
+    background: linear-gradient(90deg, rgba(156, 108, 159, 1) 0%, rgba(89, 9, 94, 1) 49%, rgba(46, 239, 221, 1) 100%);
+    cursor: pointer;
+    width: 153px;
+    height: 42px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.organiorg-partner .section-factor .factor-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.organiorg-partner .section-factor .factor-search span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #4d4d4d;
+    padding: 15px;
+}
+
+.organiorg-partner .section-factor .factor-search form {
+    border-radius: 50px;
+    margin-top: 10px;
+    width: 362px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #403d58;
+    overflow: hidden;
+}
+
+.organiorg-partner .section-factor .factor-search form button {
+    border: none;
+    background: 0 0;
+    color: #403D58;
+    font-size: 16px;
+    font-weight: bold;
+    height: 37px;
+    line-height: 35px;
+    width: 35px;
+    padding: 0;
+    cursor: pointer;
+    float: right;
+    width: 91px;
+    border-radius: 19px;
+    background: linear-gradient(90deg, rgba(46, 238, 221, 1) 49%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.16);
+}
+
+.organiorg-partner .section-factor .factor-search form input {
+    border: none;
+    height: 37px;
+    padding: 0 10px;
+    line-height: 25px;
+    width: 256px;
+    float: right;
+    background: 0 0 !important;
+    color: #4d4d4d;
+    font-size: 13px;
+}
+
+.organiorg-partner .section-factor .factor-search form input::placeholder {
+    font-weight: 500;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.organiorg-partner .section-factor .factor-header {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(91, 30, 107, 1) 0%, rgba(114, 211, 218, 1) 74%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 17px;
+    padding: 10px 20px;
+    margin: 25px 0px;
+}
+
+.organiorg-partner .section-factor .factor-header .left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.organiorg-partner .section-factor .factor-header .right span:nth-child(1),
+.organiorg-partner .section-factor .factor-header .left span:nth-child(1) {
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.organiorg-partner .section-factor .factor-header .right span:nth-child(2),
+.organiorg-partner .section-factor .factor-header .left span:nth-child(2) {
+    font-size: 15px;
+    color: #fff;
+}
+
+.organiorg-partner .section-factor .factor-form {
+    margin: 10px 0px;
+}
+
+.organiorg-partner .section-factor .factor-form .title h2 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}
+
+.organiorg-partner .section-factor .factor-form .factor-body {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 40px 65px;
+    flex-wrap: wrap;
+}
+
+.organiorg-partner .section-factor .factor-form .factor-body .box {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 15%;
+    max-width: 15%;
+    margin: 0px 25px;
+}
+
+.organiorg-partner .section-factor .factor-form .factor-body .box label.box-header {
+    font-weight: normal;
+    text-align: right;
+    color: #b5b5b5;
+    font-size: 12px;
+}
+
+.organiorg-partner .section-factor .factor-form .factor-body .box label.box-body {
+    font-weight: 500;
+    font-size: 14px;
+    color: #403d58;
+    display: flex;
+    align-items: center;
+}
+
+.organiorg-partner .section-factor .factor-form .factor-body .box img {
+    width: 85px;
+    height: 85px;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.organiorg-partner .section-factor .factor-form .factor-body .box label.box-body img {
+    width: 24px;
+    height: 28px;
+    margin-left: 5px;
+}
+
+.organiorg-partner .section-factor .factor-form .py-55 {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+
+.organiorg-partner .section-factor .factor-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.organiorg-partner .section-factor .factor-btn a {
+    background: linear-gradient(90deg, rgba(156, 108, 159, 1) 0%, rgba(89, 9, 94, 1) 49%, rgba(46, 239, 221, 1) 100%);
+    cursor: pointer;
+    width: 153px;
+    height: 42px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media(max-width: 991px) {
+    .organiorg-partner .step-two .forms .step-select {
+        flex: 0 0 36.333333%;
+        max-width: 36.333333%;
+    }
+
+    .organiorg-partner .step-two .forms .step-input {
+        flex: 0 0 36.333333%;
+        max-width: 36.333333%;
+    }
+
+    .organiorg-partner .step-three .tab-content .body-box .card-main .cards-item {
+        flex: 0 0 45%;
+        max-width: 46%;
+    }
+
+    .organiorg-partner .step-three .tab-content .body-box .card-main .cards-item .cards-header {
+        padding: 15px 5px;
+    }
+
+    .organiorg-partner .section-factor .factor-form .factor-body .box {
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 767px) {
+    .organiorg-partner .step-two .forms {
+        padding: 0px 30px;
+    }
+
+    .organiorg-partner .step-two .forms .step-select,
+    .organiorg-partner .step-two .forms .step-input {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .step-two-btn {
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .organiorg-partner .step-two .step-input-show,
+    .organiorg-partner .step-two .step-input-show input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .organiorg-partner .step-three nav .nav-tabs {
+        display: flex;
+        width: 100%;
+    }
+    .organiorg-partner .section-factor .factor-header{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .organiorg-partner .section-factor .factor-header .left{
+        padding-left: 0px;
+    }
+
+}
+
+@media(max-width: 515px) {
+    .organiorg-partner .step-three .tab-content .body-box .card-main .cards-item {
+        flex: 0 0 45%;
+        max-width: 46%;
+    }
+
+    .organiorg-partner .step-three .tab-content .body-box .card-main .cards-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .organiorg-partner .section-factor .factor-form .factor-body .box {
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin-bottom: 15px;
+    }
+
+}

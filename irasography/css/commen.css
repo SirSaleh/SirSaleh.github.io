@@ -1,0 +1,298 @@
+/* ------------------------------------
+            Header Dashbord
+--------------------------------------*/
+.nav-dashbord {
+    width: 100%;
+    height: 64px;
+    background: #fff;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+
+}
+
+.nav-dashbord .nav-right {
+    display: flex;
+}
+
+.nav-dashbord .nav-right .nav-up {
+    background: url(../images/bg-upload.svg);
+    width: 101px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 13px;
+}
+
+.nav-dashbord .nav-right .nav-up a img {
+    width: 29.75px;
+    height: 24.56px;
+}
+
+.nav-dashbord .nav-right .dropdown-notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 25px;
+}
+
+.nav-dashbord .nav-right .dropdown-notification img {
+    width: 18px;
+    height: 21px;
+}
+
+.nav-dashbord .nav-right .dropdown-notification span {
+    position: absolute;
+    top: 9px;
+    right: -9px;
+    color: #fff;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-dashbord .nav-right .dropdown-notification span.badge-bell {
+    width: 12.63px;
+    height: 12.63px;
+    background: #fb7a8e;
+    border-radius: 50%;
+    line-height: 19px;
+    padding-top: 3px;
+}
+
+.nav-dashbord .nav-right .user-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-dashbord .nav-right .user-avatar a {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.nav-dashbord .nav-right .user-avatar img {
+    width: 24.6px;
+    height: 24.6px;
+    border-radius: 50%;
+}
+
+.nav-dashbord .nav-right .user-avatar span {
+    font-weight: bold;
+    font-size: 10px;
+    color: #403d58;
+    padding-right: 10px;
+}
+
+.nav-dashbord .nav-center {
+    display: flex;
+}
+
+.nav-dashbord .nav-center .nav-search {
+    display: flex;
+    align-items: center;
+}
+
+.nav-dashbord .nav-center .nav-search form button.btn-serach {
+    border: none;
+    background: 0 0;
+    color: #465775;
+    line-height: 38px;
+    padding: 0;
+    cursor: pointer;
+    width: 12.45px;
+    height: 12.45px;
+}
+
+.nav-dashbord .nav-center .nav-search form input {
+    width: 370px;
+    border-bottom: 0.5px solid #b5b5b5;
+    outline: 0;
+    background: 0 0;
+    border: none;
+    border-bottom: 0.5px solid #b5b5b5;
+    margin-right: 15px;
+}
+
+.nav-dashbord .nav-left {
+    display: flex;
+}
+
+.nav-dashbord .nav-left .nav-menu,
+.nav-dashbord .nav-left .nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-dashbord .nav-left .nav-menu i {
+    color: #707070;
+    font-size: 18px;
+    margin-left: 45px;
+}
+
+.nav-dashbord .nav-left .nav-logo img {
+    width: 78.33px;
+    height: 31.22px;
+    background: transparent;
+    margin-left: 40px;
+}
+@media only screen and (max-width:992px) {
+    .nav-dashbord{
+        height: auto;
+    }
+    
+    .nav-dashbord .nav-center .nav-search{
+        width: 100%;
+        display: block;
+        padding: 20px;
+    }
+    .nav-dashbord .nav-center .nav-search form input{
+        width: 245px;
+    }
+    .nav-dashbord .nav-left{
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .nav-dashbord .nav-left .nav-logo img{
+        margin-left: 10px;
+    }
+}
+
+/* ------------------------------------
+            Footer
+--------------------------------------*/
+.footer {
+    background: linear-gradient(90deg, rgba(89, 9, 94, 1) 0%, rgba(70, 87, 117, 1) 50%, rgba(51, 6, 54, 1) 100%);
+    padding: 50px 0px;
+}
+
+.footer .email-input span {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: right;
+    color: #fff;
+
+}
+
+.footer .email-input form {
+    height: 40px;
+    width: 271px;
+    border-radius: 50px;
+    background: rgba(96, 92, 125, 0.9);
+    margin-top: 10px;
+}
+
+.footer .email-input form button {
+    border: none;
+    background: 0 0;
+    color: #403D58;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 35px;
+    width: 35px;
+    padding: 0;
+    cursor: pointer;
+    float: right;
+    width: 91px;
+    border-radius: 19px;
+    background: linear-gradient(90deg, rgba(46, 238, 221, 1) 49%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.16);
+}
+
+.footer .email-input form input {
+    border: none;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 37px;
+    width: 170px;
+    float: right;
+    background: 0 0 !important;
+    color: #fff;
+    font-size: 13px;
+}
+
+.footer .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .logo .title h2 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #2bffe6;
+}
+
+.footer .logo .menus {
+    margin-top: 10px;
+}
+
+.footer .logo .menus ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .logo .menus ul li {
+    border-right: 1px solid #2BFFE6;
+    padding: 0px 10px;
+}
+
+.footer .logo .menus ul li:first-child {
+    border-right: none;
+}
+
+.footer .logo .menus ul li a {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    color: #fff;
+}
+
+.footer .logo .social-links {
+    margin-top: 30px;
+}
+
+.footer .logo .social-links ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .logo .social-links ul li {
+    padding: 0px 5px;
+}
+
+.footer .logo .social-links ul li img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer .square {
+    width: 173px;
+    height: 162px;
+    background: rgba(70, 87, 117, 0.9);
+    float: left;
+}
+
+@media only screen and (max-width:992px) {
+    .footer .email-input {
+        padding-bottom: 35px;
+    }
+
+    .footer .logo {
+        padding-bottom: 35px;
+    }
+
+    .footer .square {
+        margin: 0 auto;
+        float: initial;
+    }
+}

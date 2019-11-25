@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>B2B 1</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/commen.css">
+    <link rel="stylesheet" href="./css/map.css">
+    <link rel="stylesheet" href="./css/b2b.css">
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/iranmap.js"></script>
+</head>
+
+<body>
+    <header class="nav-dashbord">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-between">
+                <ul class="nav-right">
+                    <li class="nav-up">
+                        <a href="#">
+                            <img src="./images/logo-upload.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="dropdown-notification">
+                        <a href="#">
+                            <img src="./images/icon-bell.svg" alt="">
+                            <span class="badge badge-bell">5</span>
+                        </a>
+                    </li>
+                    <li class="user-avatar">
+                        <a href="#">
+                            <img src="./images/user-pic.png" alt="">
+                            <span>عارفه قباحی</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav-center">
+                    <li class="nav-search">
+                        <form class="d-flex">
+                            <button type="submit" class="btn-serach">
+                                <i class="fas fa-search"></i>
+                            </button>
+                            <input type="text" name="search">
+                        </form>
+                    </li>
+                </ul>
+                <ul class="nav-left">
+                    <li class="nav-menu">
+                        <a href="#">
+                            <i class="fas fa-bars "></i>
+                        </a>
+                    </li>
+                    <li class="nav-logo">
+                        <a href="#">
+                            <img src="./images/nav-logo.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="organiorg-partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h2>همکاری سازمانی </h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <form class="step-one" action="">
+                        <span class="title">لطفا اطلاعات مربوط به سازمان یا شرکت خود را ثبت کنید</span>
+                        <div class="forms">
+                            <div class="step-input">
+                                <label>عنوان شرکت یا سازمان *</label>
+                                <input type="text" class="form-control input-form">
+                            </div>
+                            <div class="step-input">
+                                <label>استان *</label>
+                                <input type="text" class="form-control input-form">
+                            </div>
+                            <div class="step-input">
+                                <label>شهرستان *</label>
+                                <input type="text" class="form-control input-form">
+                            </div>
+                            <div class="step-input">
+                                <label>تماس</label>
+                                <input type="text" class="form-control input-form">
+                            </div>
+                            <div class="step-input">
+                                <label>ایمیل *</label>
+                                <input type="text" class="form-control input-form">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end p-4">
+                            <a href="#">تایید و گام بعدی</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-12">
+                    <form class="step-two" action="">
+                        <span class="title">لطفا اطلاعات مربوط به پروژه را ثبت کنید</span>
+                        <div class="forms">
+                            <div class="step-select selects">
+                                <label>شرح پروژه</label>
+                                <select class="form-control" id="basicSelect">
+                                    <option>یک</option>
+                                    <option>دو</option>
+                                </select>
+                            </div>
+                            <div class="step-input ">
+                                <label>تاریخ شروع</label>
+                                <div class="d-block calendar">
+                                    <input type="text" class="form-control input-form">
+                                    <i class="far fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                            <div class="step-input">
+                                <label>تاریخ پایان</label>
+                                <div class="d-block calendar">
+                                    <input type="text" class="form-control input-form">
+                                    <i class="far fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                            <div class="step-input selects">
+                                <label>گرید عکاس</label>
+                                <select class="form-control" id="basicSelect">
+                                    <option>یک</option>
+                                    <option>دو</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="step-two-btn d-flex justify-content-between align-items-end p-4">
+                            <div class="step-input-show">
+                                <label>تاریخ پایان</label>
+                                <div class="d-block">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <a href="#">تایید و گام بعدی</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="email-input">
+                        <span>برای آگاهی از اتفاقات جدید در ایراسو ایمیل خود را ثبت کنید</span>
+                        <form>
+                            <button type="submit" class="btn-serach">ثبت</button>
+                            <input type="text">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo">
+                        <div class="title">
+                            <h2>IRASOGRAPHY.COM</h2>
+                        </div>
+                        <div class="menus">
+                            <ul>
+                                <li>
+                                    <a href="#">تماس با ما</a>
+                                </li>
+                                <li>
+                                    <a href="#">درباره با ما</a>
+                                </li>
+                                <li>
+                                    <a href="#">قوانین و مقررات</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-links">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/telegram.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/instagram.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="square"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
