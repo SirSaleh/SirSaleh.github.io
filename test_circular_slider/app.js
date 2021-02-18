@@ -33,7 +33,7 @@ class Slider {
     draw() {
 
         // Create legend UI
-        this.createLegendUI();
+        // this.createLegendUI();
 
         // Create and append SVG holder
         const svgContainer = document.createElement('div');
@@ -122,7 +122,8 @@ class Slider {
         path.style.stroke = color;
         path.style.strokeWidth = this.arcFractionThickness;
         path.style.fill = 'none';
-        path.setAttribute('stroke-dasharray', this.arcFractionLength + ' ' + singleSpacing);
+        // path.setAttribute('stroke-dasharray', this.arcFractionLength + ' ' + singleSpacing);
+	path.setAttribute('stroke-dasharray', 0);
         group.appendChild(path);
     }
 
