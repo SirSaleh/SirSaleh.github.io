@@ -38,7 +38,6 @@ class Slider {
         // Create and append SVG holder
         const svgContainer = document.createElement('div');
         svgContainer.classList.add('slider__data');
-        svgContainer.classList.add('text-center');
         const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
         svg.setAttribute('height', this.sliderWidth);
         svg.setAttribute('width', this.sliderHeight);
@@ -210,7 +209,7 @@ class Slider {
         handle.setAttribute('cy', handleCenter.y);
 
         // Update legend
-        // this.updateLegendUI(currentAngle);
+        this.updateLegendUI(currentAngle);
     }
 
     /**
@@ -441,4 +440,3 @@ class Slider {
 
   
   
-
