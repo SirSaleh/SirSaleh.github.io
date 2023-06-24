@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<h2>Sinus Function 0 - 10π</h2>
+		<div style="width: 400px; height: 100px;" id="rangeRiderSliderSinusTo10pi"></div>
+		
+		<h2>Sin Function 0 - 3π</h2>
+		<div style="width: 400px; height: 100px;" id="rangeRiderSliderSinTo3Pi"></div>
+		
+		<h2>Constant Function 0 - 1</h2>
+		<div style="width: 400px; height: 100px;" id="rangeRiderSliderConstTo1"></div>
+		
+		<h2>Sinus Function 0 - 10π with legend updating</h2>
+		<div style="width: 400px; height: 100px;" id="rangeRiderSliderSinusTo10piWithLegend"></div>
+		Value is %<span id="sin_legend">50</span>.
+		<script src="./asset_tools/range_rider.js"></script>
+		<script>
+			window.onload = function() {
+				const rangeRiderSliderSinusFull = new RangeRider({
+					shapeFunc: (x)=>{
+						return Math.sin(x)
+					},
+					strokeWidth: 10,
+					holderID:"rangeRiderSliderSinusTo10pi",
+					funcStart: 0,
+					funcEnd: Math.PI*10,
+					strokeColor: "#000000",
+					percentageValue: 50,
+					progressStrokeWidth: 10,
+					progressStrokeColor: "#ff5555",
+					sliderChangeCallback: function(newPercentageValue){
+						console.log(newPercentageValue)
+					}
+				});
+				rangeRiderSliderSinusFull.generate()
+				
+				
+				const rangeRiderSliderSinus3PI = new RangeRider({
+					shapeFunc: (x)=>{
+						return Math.sin(x)
+					},
+					strokeWidth: 15,
+					holderID:"rangeRiderSliderSinTo3Pi",
+					funcStart: 0,
+					funcEnd: Math.PI*3,
+					strokeColor: "#000000",
+					percentageValue: 30,
+					progressStrokeWidth: 10,
+					progressStrokeColor: "#22aa22",
+					sliderChangeCallback: function(newPercentageValue){
+						console.log(newPercentageValue)
+					}
+				});
+				rangeRiderSliderSinus3PI.generate()
+				
+				const rangeRiderSliderConstTo1 = new RangeRider({
+					shapeFunc: (x)=>{
+						return 1
+					},
+					strokeWidth: 15,
+					holderID:"rangeRiderSliderConstTo1",
+					funcStart: 0,
+					funcEnd: 1,
+					strokeColor: "#000000",
+					percentageValue: 30,
+					progressStrokeWidth: 10,
+					progressStrokeColor: "#fff200",
+					sliderChangeCallback: function(newPercentageValue){
+						console.log(newPercentageValue)
+					}
+				});
+				rangeRiderSliderConstTo1.generate()
+				
+				
+				const rangeRiderSliderSinusTo10piWithLegend = new RangeRider({
+					shapeFunc: (x)=>{
+						return Math.sin(x)
+					},
+					strokeWidth: 10,
+					holderID:"rangeRiderSliderSinusTo10piWithLegend",
+					funcStart: 0,
+					funcEnd: 1,
+					strokeColor: "#000000",
+					percentageValue: 50,
+					progressStrokeWidth: 10,
+					progressStrokeColor: "#eeaaff",
+					sliderChangeCallback: function(newPercentageValue){
+						let sin_legend = document.getElementById('sin_legend');
+						sin_legend.innerHTML = Math.round(newPercentageValue);
+					}
+				});
+				rangeRiderSliderSinusTo10piWithLegend.generate()
+			}
+		</script>
+	</body>
+</html>
