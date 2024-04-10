@@ -1,0 +1,191 @@
+/* Add here all your CSS customizations */
+
+/* Headers */
+.head-set-height-bg {
+    max-height: 68px !important;
+    background-color: #21252978 !important;
+}
+
+.mar-top {
+    margin-top: 5%;
+}
+
+.marg-top {
+    margin-top: 7%;
+}
+
+.font-size {
+    font-size: 5.4rem !important;
+}
+
+.proj-title-marg {
+    margin-top: 5% m !important;
+}
+
+.nav-size {
+    height: 13% !important;
+}
+
+.btn-color {
+    color: #FFF;
+    background: #00ADD2;
+}
+
+.under-footer-style {
+    color: #FFF !important;
+    background: #1C2023 !important;
+    text-align: center !important;
+    padding-bottom: 6px !important;
+}
+
+.prod-page-item-size {
+    position: unset !important;
+    width: 80% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin: 0 auto !important;
+}
+
+.order-form input[type=submit] {
+    background-color: #4647ed;
+    color: #ccccd9;
+    cursor: pointer;
+}
+
+.order-form input[type=submit]:hover {
+    border-color: #070d35 !important;
+}
+
+.errorlist,
+div.base_errorlist {
+    color: red;
+    font-weight: bold;
+}
+
+div.messages {
+    color: green;
+    font-weight: bold;
+}
+
+.order-form-title {
+    margin-left: 10px;
+}
+
+.form-holder-diplay {
+    display: contents !important;
+    flex-direction: row;
+}
+
+.form-holder-padding {
+    padding: 18px;
+}
+
+.order-form input, select {
+    width: 75%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.order-form textarea {
+    width: 75%;
+    height: 90px;
+    padding: 110px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+/* This applies from 600px onwards */
+@media (min-width: 600px) {}
+
+/* This applies from 800px onwards */
+@media (min-width: 800px) and (max-width: 1200px) {
+    .font-size {
+        font-size: 7.5rem !important;
+    }
+
+    .prod-page-item-size {
+        position: unset !important;
+        width: 40% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin: 0 auto !important;
+    }
+
+    .order-form textarea {
+        width: 83%;
+    }
+
+    .order-form input, select {
+        width: 83%;
+    }
+}
+
+/* This applies from 1200px onwards */
+@media (min-width: 1200px){
+    .font-size {
+        font-size: 7.5rem !important;
+    }
+
+    .margin-top {
+        margin-top: 183px;
+    }
+
+    .flex-style {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .img-style {
+        width: 90%;
+    }
+
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .margin-top-text {
+        margin-top: 10px;
+    }
+
+    .footer-height {
+        min-height: 5.2vw !important;
+    }
+
+    .order-form input, select {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+    }
+
+    .order-form textarea {
+        width: 90%;
+        height: 150px;
+        padding: 12px 20px;
+    }
+
+    .height-of-body {
+        height: 600px;
+        padding-top: 0% !important;
+    }
+
+    .main-height {
+        min-height: 100%;
+    }
+
+    .form-holder-diplay {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+}
+

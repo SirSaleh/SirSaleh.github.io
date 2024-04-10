@@ -1,0 +1,168 @@
+HTTrack3.49-2 launched on Wed, 10 Apr 2024 19:48:38 at http://127.0.0.1:8000/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://127.0.0.1:8000/ -O "/home/saleh/websites/bitparsersHTMLOnly" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:49:45	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): 127.0.0.1:8000/static/js/custom.js
+19:56:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/logo/bitLogo.png
+19:56:22	Error: 	"Not Found" (404) at link 127.0.0.1:8000/img/favicon.ico (from 127.0.0.1:8000/)
+19:56:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/Untitleda.jpg
+19:56:23	Error: 	"Not Found" (404) at link 127.0.0.1:8000/img/apple-touch-icon.png (from 127.0.0.1:8000/)
+19:56:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/20944136b.jpg
+19:56:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/modernizr/modernizr.min.js
+19:57:05	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/jquery/jquery.min.js
+19:57:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/jquery.appear/jquery.appear.min.js
+19:57:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/jquery.easing/jquery.easing.min.js
+19:57:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/jquery.cookie/jquery.cookie.min.js
+19:57:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/popper/umd/popper.min.js
+19:57:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/bootstrap/js/bootstrap.min.js
+19:57:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/common/common.min.js
+19:57:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/jquery.validation/jquery.validate.min.js
+19:57:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js
+19:58:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/jquery.gmap/jquery.gmap.min.js
+19:58:10	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/jquery.lazyload/jquery.lazyload.min.js
+19:58:10	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/isotope/jquery.isotope.min.js
+19:58:10	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/owl.carousel/owl.carousel.min.js
+19:58:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/magnific-popup/jquery.magnific-popup.min.js
+19:58:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/vide/jquery.vide.min.js
+19:58:13	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/vivus/vivus.min.js
+19:58:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/js/theme.js
+19:58:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/js/views/view.contact.js
+19:58:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/js/theme.init.js
+19:58:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/services/services.png
+19:58:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/products/lightshifter.png
+19:58:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/products/Lumos.png
+19:58:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/products/light-blender-logo.png
+19:58:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/products/products_header_page.jpg
+19:58:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/projects.jpg
+19:58:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/dnbuy.png
+19:58:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/gtr.png
+19:58:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/gtr-one.png
+19:58:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/ryan-longo.png
+19:58:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/Lumos.png
+19:58:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/TF logo.jpg
+19:58:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/synodic-logo-2.png
+19:58:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/light-blender-logo.png
+19:58:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/metal-logo.jpg
+19:58:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/abute-us.png
+19:58:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/contact_us/contact-us.png
+19:58:23	Warning: 	HTML file (4246 bytes) retransferred due to lack of cache: 127.0.0.1:8000/captcha/image/8ca34f618c0df123563ae385192a2b83510157a7/
+19:58:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/products/lightshifter1.jpg
+19:58:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/lumos/secondimages.jpg
+19:58:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/lumos/17.jpg
+19:58:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/lumos/15.jpg
+19:58:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/lumos/16.jpg
+19:58:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/lumos/thirdimages.jpg
+19:58:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/dnbuy-project.png
+19:58:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/gtr-projects.png
+19:58:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/lightshifter1.jpg
+19:58:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/lightshifter.jpg
+19:58:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/lumos/firstimages.jpg
+19:58:29	Warning: 	HTML file (4341 bytes) retransferred due to lack of cache: 127.0.0.1:8000/captcha/image/ee5fad7e749f744ac1c1af63679d59b1d9659df6/
+19:58:29	Warning: 	HTML file (4528 bytes) retransferred due to lack of cache: 127.0.0.1:8000/captcha/image/62e9cc4423e87b85b855a2995121105147e19099/
+19:58:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/tfmain.png
+19:58:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/image/projects/bellevueroot.png
+19:58:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2
+19:58:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-brands-400.eot
+19:58:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff
+19:58:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-brands-400.ttf
+19:58:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-regular-400.eot
+19:58:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2
+19:58:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff
+19:58:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-regular-400.ttf
+19:58:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-solid-900.eot
+19:58:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+19:58:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff
+19:58:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/fontawesome-free/webfonts/fa-solid-900.ttf
+19:58:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0
+19:58:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot?v=2.4.0
+19:58:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf?v=2.4.0
+19:58:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff?v=2.4.0
+19:58:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 127.0.0.1:8000/static/vendor/owl.carousel/assets/owl.video.play.png
+19:59:02	Warning: 	HTML file (21933 bytes) retransferred due to lack of cache: 127.0.0.1:8000/services/
+19:59:03	Error: 	"Not Found" (404) at link 127.0.0.1:8000/image/wepik--2022517-222411.jpeg (from 127.0.0.1:8000/)
+19:59:03	Warning: 	HTML file (23352 bytes) retransferred due to lack of cache: 127.0.0.1:8000/terms-and-conditions/
+19:59:04	Error: 	"Not Found" (404) at link 127.0.0.1:8000/services/img/favicon.ico (from 127.0.0.1:8000/services/)
+19:59:04	Error: 	"Not Found" (404) at link 127.0.0.1:8000/services/img/apple-touch-icon.png (from 127.0.0.1:8000/services/)
+19:59:04	Error: 	"Not Found" (404) at link 127.0.0.1:8000/products/img/favicon.ico (from 127.0.0.1:8000/products/)
+19:59:04	Error: 	"Not Found" (404) at link 127.0.0.1:8000/products/img/apple-touch-icon.png (from 127.0.0.1:8000/products/)
+19:59:04	Warning: 	HTML file (12472 bytes) retransferred due to lack of cache: 127.0.0.1:8000/products/light-shifter
+19:59:05	Warning: 	HTML file (15519 bytes) retransferred due to lack of cache: 127.0.0.1:8000/products/lumos
+19:59:06	Warning: 	HTML file (12331 bytes) retransferred due to lack of cache: 127.0.0.1:8000/products/light-blender
+19:59:07	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/img/favicon.ico (from 127.0.0.1:8000/projects/)
+19:59:07	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/)
+19:59:07	Warning: 	HTML file (13839 bytes) retransferred due to lack of cache: 127.0.0.1:8000/projects/dnbuy/
+19:59:08	Warning: 	HTML file (12879 bytes) retransferred due to lack of cache: 127.0.0.1:8000/projects/gtr/
+19:59:09	Warning: 	HTML file (13341 bytes) retransferred due to lack of cache: 127.0.0.1:8000/projects/light-shifter/
+19:59:10	Warning: 	HTML file (13640 bytes) retransferred due to lack of cache: 127.0.0.1:8000/projects/light-shifter-v2/
+19:59:11	Warning: 	HTML file (13109 bytes) retransferred due to lack of cache: 127.0.0.1:8000/projects/trade-forward-project/
+19:59:12	Warning: 	HTML file (13871 bytes) retransferred due to lack of cache: 127.0.0.1:8000/projects/syondic-br/
+19:59:13	Warning: 	HTML file (13421 bytes) retransferred due to lack of cache: 127.0.0.1:8000/projects/light-blender/
+19:59:14	Warning: 	HTML file (12886 bytes) retransferred due to lack of cache: 127.0.0.1:8000/projects/metal-in-nature/
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/about-us/img/favicon.ico (from 127.0.0.1:8000/about-us/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/about-us/img/apple-touch-icon.png (from 127.0.0.1:8000/about-us/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/about-us/img/generic/generic-corporate-3-1.jpg (from 127.0.0.1:8000/about-us/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/about-us/img/generic/generic-corporate-3-2.jpg (from 127.0.0.1:8000/about-us/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/about-us/img/generic/generic-corporate-3-3.jpg (from 127.0.0.1:8000/about-us/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/contact-us/img/favicon.ico (from 127.0.0.1:8000/contact-us/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/contact-us/img/apple-touch-icon.png (from 127.0.0.1:8000/contact-us/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/terms-and-conditions/img/favicon.ico (from 127.0.0.1:8000/terms-and-conditions/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/terms-and-conditions/img/apple-touch-icon.png (from 127.0.0.1:8000/terms-and-conditions/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/privacy-policy/img/favicon.ico (from 127.0.0.1:8000/privacy-policy/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/privacy-policy/img/apple-touch-icon.png (from 127.0.0.1:8000/privacy-policy/)
+19:59:15	Error: 	"Not Found" (404) at link 127.0.0.1:8000/products/img/products/product-grey-7.jpg (from 127.0.0.1:8000/products/light-shifter)
+19:59:15	Warning: 	HTML file (24943 bytes) retransferred due to lack of cache: 127.0.0.1:8000/products/order/create?product=lumos
+19:59:16	Warning: 	HTML file (24975 bytes) retransferred due to lack of cache: 127.0.0.1:8000/products/order/create?product=light_blender
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/dnbuy/img/favicon.ico (from 127.0.0.1:8000/projects/dnbuy/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/dnbuy/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/dnbuy/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/gtr/img/favicon.ico (from 127.0.0.1:8000/projects/gtr/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/gtr/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/gtr/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/light-shifter/img/favicon.ico (from 127.0.0.1:8000/projects/light-shifter/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/light-shifter/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/light-shifter/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/light-shifter-v2/img/favicon.ico (from 127.0.0.1:8000/projects/light-shifter-v2/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/light-shifter-v2/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/light-shifter-v2/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/gtr-crypto/img/favicon.ico (from 127.0.0.1:8000/projects/gtr-crypto/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/gtr-crypto/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/gtr-crypto/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/lumos/img/favicon.ico (from 127.0.0.1:8000/projects/lumos/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/lumos/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/lumos/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/trade-forward-project/img/favicon.ico (from 127.0.0.1:8000/projects/trade-forward-project/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/trade-forward-project/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/trade-forward-project/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/syondic-br/img/favicon.ico (from 127.0.0.1:8000/projects/syondic-br/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/syondic-br/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/syondic-br/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/light-blender/img/favicon.ico (from 127.0.0.1:8000/projects/light-blender/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/light-blender/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/light-blender/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/metal-in-nature/img/favicon.ico (from 127.0.0.1:8000/projects/metal-in-nature/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/projects/metal-in-nature/img/apple-touch-icon.png (from 127.0.0.1:8000/projects/metal-in-nature/)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/products/order/img/favicon.ico (from 127.0.0.1:8000/products/order/create?product=light_shifter)
+19:59:17	Error: 	"Not Found" (404) at link 127.0.0.1:8000/products/order/img/apple-touch-icon.png (from 127.0.0.1:8000/products/order/create?product=light_shifter)
+19:59:17	Warning: 	HTML file (4550 bytes) retransferred due to lack of cache: 127.0.0.1:8000/captcha/image/19cc866bfd330c6d2330bf231ab7b68502c337c5/
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/home/home-concept-dark.png (from 127.0.0.1:8000/static/css/theme.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/home/home-concept-item-dark.png (from 127.0.0.1:8000/static/css/theme.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/home/home-concept-icons-dark.png (from 127.0.0.1:8000/static/css/theme.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/arrows-dark.png (from 127.0.0.1:8000/static/css/theme.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/arrows.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/patterns/worn_dots.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/patterns/az_subtle.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/flags.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/icons/icons.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/css/img/lazy.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/pencil-blue-line.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/pencil-blue-line-dark.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/pencil-blue-line-2.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/pencil-blue-line-2-dark.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/overlay-dot.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/map.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/home/home-concept.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/home/home-concept-item.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/img/home/home-concept-icons.png (from 127.0.0.1:8000/static/css/theme-elements.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/css/fonts/star.eot (from 127.0.0.1:8000/static/css/theme-shop.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/css/fonts/star.eot? (from 127.0.0.1:8000/static/css/theme-shop.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/css/fonts/star.woff (from 127.0.0.1:8000/static/css/theme-shop.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/css/fonts/star.ttf (from 127.0.0.1:8000/static/css/theme-shop.css)
+19:59:18	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/css/fonts/star.svg (from 127.0.0.1:8000/static/css/theme-shop.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 minutes 39 seconds : 191 links scanned, 212 files written (24543383 bytes overall) [14663320 bytes received at 22947 bytes/sec], 51 bytes transferred using HTTP compression in 1 files, ratio 100%
+(67 errors, 90 warnings, 0 messages)
